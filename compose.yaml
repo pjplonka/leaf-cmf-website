@@ -1,0 +1,7 @@
+services:
+  web:
+    build:
+      context: .
+    volumes:
+      - .:/vue
+      - /node_modules
